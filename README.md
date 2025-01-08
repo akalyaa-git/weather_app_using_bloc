@@ -38,14 +38,9 @@ This app provides real-time weather information based on the user's current loca
 - The app uses a FutureBuilder to handle asynchronous operations and show a loading indicator until the data is ready.
 
 # App Flow
-- App Initialization:
-* The app determines the user's current location using the Geolocator package.
-
-- Fetching Weather Data:
-* The location is passed to the Weather API to fetch the current weather information.
-
-- State Management:
-* The app uses BLoC to handle the weather fetching logic and display the result on the screen based on different states (loading, success, failure).
+- App Initialization: The app determines the user's current location using the Geolocator package.
+- Fetching Weather Data: The location is passed to the Weather API to fetch the current weather information.
+- State Management: The app uses BLoC to handle the weather fetching logic and display the result on the screen based on different states (loading, success, failure).
 
 # Libraries Used
 - Flutter: The framework for building the app.
